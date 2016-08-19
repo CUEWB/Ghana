@@ -53,7 +53,7 @@ function loadPhotos() {
 /* initialize buttons */
 function setupButtons() {
     $(".donate-button").click(function() {
-        window.open("https://ssl.charityweb.net/ewbusa/?Custom4=2641", "_blank");
+        window.open("https://support.ewb-usa.org/fundraise?fcid=713453", "_blank");
     });
 }
 
