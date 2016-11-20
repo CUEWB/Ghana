@@ -39,7 +39,8 @@ function selectOnScroll() {
 }
 
 /* set up photo galleries */
-function loadPhotos() {
+// MOVED TO index.html FILE (because commits to ready.js were not going through for some reason)
+/*function loadPhotos() {
     $("#water .section-photos .display-image").gallery({
         source: "#water .section-photos img",
         selectClass: "shown",
@@ -47,7 +48,7 @@ function loadPhotos() {
         captionTarget: "#water .section-photos .image-caption",
         waitTime: 7000
     });
-}
+}*/
     
 
 /* initialize buttons */
