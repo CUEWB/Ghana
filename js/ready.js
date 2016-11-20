@@ -40,13 +40,13 @@ function selectOnScroll() {
 
 /* set up photo galleries */
 function loadPhotos() {
-    /*$("#water .section-photos .display-image").gallery({
+    $("#water .section-photos .display-image").gallery({
         source: "#water .section-photos img",
         selectClass: "shown",
         showCaptions: true,
         captionTarget: "#water .section-photos .image-caption",
         waitTime: 7000
-    });*/
+    });
 }
     
 
