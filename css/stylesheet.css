@@ -301,7 +301,7 @@ a:hover {
 }
 
 .section-photos .thumbnail-row {
-    float:center;
+    float:left;
     clear:left;
     margin-bottom:4px;
 }
@@ -320,7 +320,7 @@ a:hover {
 }
 
 .section-photos .display-image {
-    float:center;
+    float:left;
     width:700px;
     height:400px;
     border:3px solid #e95a50;
