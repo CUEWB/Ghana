@@ -67,13 +67,19 @@
             <div class="thumbnails">
                 <script>
                     /* set up photo galleries */
-                    $("#water .section-photos .display-image").gallery({
-                        source: "#water .section-photos img",
-                        selectClass: "shown",
-                        showCaptions: true,
-                        captionTarget: "#water .section-photos .image-caption",
-                        waitTime: 7000
+                    $(document).ready(function() {
+                        loadPhotos();
                     });
+                    
+                    function loadPhotos() {
+                        $("#water .section-photos .display-image").gallery({
+                            source: "#water .section-photos img",
+                            selectClass: "shown",
+                            showCaptions: true,
+                            captionTarget: "#water .section-photos .image-caption",
+                            waitTime: 7000
+                        });
+                    }
                 </script>
                 <div class="thumbnail-row">
                     <img src="images/p1.jpg" title="To save costs we reused one of the tanks owned by the village and used it to store water collected from the well." />
