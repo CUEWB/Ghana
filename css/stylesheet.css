@@ -1,5 +1,5 @@
 /*
- * Columbia University Engineers Without Borders - Morocco
+ * Columbia University Engineers Without Borders - Ghana
  * CSS Stylesheet
  * Author: Alex Kalicki
  * Source code for site available on GitHub: https://github.com/akalicki/EWB-Morocco
@@ -321,7 +321,7 @@ a:hover {
 
 .section-photos .display-image {
     float:left;
-    width:650px;
+    width:50px;
     height:385px;
     border:3px solid #e95a50;
     border-radius:2px;
