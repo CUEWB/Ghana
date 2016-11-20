@@ -321,8 +321,8 @@ a:hover {
 
 .section-photos .display-image {
     float:left;
-    width:700px;
-    height:450px;
+    width:50%;
+    height:50%;
     border:3px solid #e95a50;
     border-radius:2px;
     opacity:0;
