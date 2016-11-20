@@ -2,7 +2,7 @@
 $(document).ready(function() {
     scrollToAnchor();
     selectOnScroll();
-    loadPhotos();
+    //loadPhotos();
     setupButtons();
     loadYear();
 });
