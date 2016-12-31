@@ -62,9 +62,6 @@
             <p>Our team is also preparing an in-depth education effort in order to teach water, sanitation, and hygiene lessons to the villagers in Amanfrom. We will also be conducting water quality tests to ensure that the water meets WHO standards, and we will also monitor the community’s capacity to independently operate and  manage the new water distribution system.</p>
         </div>
         <div class="section-photos">
-            <div class="display-image" style="text-align:center"></div>
-            <p class="image-caption"></p>
-            <div class="thumbnails">
                 <script>
                     /* set up photo galleries */
                     $(document).ready(function() {
@@ -82,9 +79,9 @@
                     }
                 </script>
                 <style>
-          .section-photos {
+  /* styles for section photo galleries */
+.section-photos {
     clear:left;
-    display: block;
     margin:0 auto;
     padding-top:2em;
     width:872px;
@@ -98,16 +95,12 @@
 .section-photos .thumbnail-row {
     float:left;
     clear:left;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom:4px;
 }
 
 .section-photos .thumbnail-row img {
     display:block;
     float:left;
-    display: block;
-    margin: 0 auto;
     margin-right:4px;
     width:98px;
     border:3px solid #a8a8a8;
@@ -120,10 +113,8 @@
 
 .section-photos .display-image {
     float:left;
-    display: block;
-    margin: 0 auto;
-    width:800px;
-    height:450px;
+    width:650px;
+    height:385px;
     border:3px solid #e95a50;
     border-radius:2px;
     opacity:0;
@@ -131,21 +122,32 @@
 
 .section-photos .image-caption {
     clear:left;
-    margin-left:90px;
+    margin-left:219px;
     padding-top:10px;
     width:650px;
     height:50px;
     text-align:center;
 }
                 </style>
-                <div class="thumbnail-row" style="text-align: center">
+            <div class="thumbnails">
+                <div class="thumbnail-row">
                     <img src="images/p1.jpg" title="To save costs we reused one of the tanks owned by the village and used it to store water collected from the well." />
+                </div>
+                <div class="thumbnail-row">
                     <img src="images/p2.jpg" title="Ghana program members alongside Amanfrom’s village elders and the water committee at our handoff ceremony." />
+                </div>
+                <div class="thumbnail-row">
                     <img src="images/p3.jpg" title="After a successful day of borehole drilling, we pose for a picture with Sammy, our primary contact in Ghana for the past 10 years, and two members of the Amanfrom water committee." />
+                </div>
+                <div class="thumbnail-row">
                     <img src="images/p5.jpg" title="Villagers set up one of the two tanks used to store water provided by submersible pumps." />
+                </div>
+                <div class="thumbnail-row">
                     <img src="images/p6.jpg" title="Cur hydrogeologist looking  at our drill cuttings, revealing the different types of rocks layers in the ground." />
                 </div>
             </div>
+            <div class="display-image"></div>
+            <p class="image-caption"></p>
         </div>
     </div>
 </section>
