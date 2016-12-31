@@ -288,9 +288,8 @@ a:hover {
 }
 
 /* styles for section photo galleries */
-/*.section-photos {
+.section-photos {
     clear:left;
-    display: block;
     margin:0 auto;
     padding-top:2em;
     width:872px;
@@ -310,8 +309,6 @@ a:hover {
 .section-photos .thumbnail-row img {
     display:block;
     float:left;
-    display: block;
-    margin: 0 auto;
     margin-right:4px;
     width:98px;
     border:3px solid #a8a8a8;
@@ -324,23 +321,21 @@ a:hover {
 
 .section-photos .display-image {
     float:left;
-    display: block;
-    margin: 0 auto;
-    width:700px;
-    height:400px;
+    width:758px;
+    height:450px;
     border:3px solid #e95a50;
     border-radius:2px;
     opacity:0;
 }
 
 .section-photos .image-caption {
-    clear:left;*/
-/*     margin-left:219px; */
-/*    padding-top:10px;
+    clear:left;
+    margin-left:175px;
+    padding-top:10px;
     width:650px;
     height:50px;
     text-align:center;
-}*/
+}
 
 /* donate button */
 .section-donate {
